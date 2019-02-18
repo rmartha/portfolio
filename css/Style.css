@@ -36,7 +36,11 @@
 }
 
 body{
-    font-family: 'Roboto', sans-serif;
+    font-family: "Quicksand", Arial, sans-serif;
+        font-weight: 400;
+  font-size: 15px;
+  line-height: 1.8;
+     color: rgba(0, 0, 0, 0.7);
     background:#fafafa;
     overflow-x: hidden;
     position: relative;
@@ -78,24 +82,29 @@ hr{
 
 .section-title{
     position: relative;
-    display: inline-block;    
-    padding: 0 3px;
+    text-transform: uppercase;
+    display:block;    
+/* padding: 0 3px;*/
+    color: #3c5a99;
+
 }
 
 .section-title h1, .section-title h2, .section-title h3, .section-title h4 ,.section-title h5{
     font-size: 18px;
     font-weight: 600;
     position: relative;
+    letter-spacing: 1.8;
 }
 
 .section-title span{
     position: absolute;
-    height: 7px;
+    height: 0px;
     width: 100%;
     bottom: 0;
     opacity: 0.4;    
     left:0;
 }
+
 
 .site-btn{
     font-size: 14px;
@@ -113,7 +122,7 @@ hr{
 }
 
 .cbp-l-loadMore-link.site-btn{
-    font-family: 'Roboto', sans-serif !important;
+    font-family: "Quicksand", Arial, sans-serif; !important;
     font-size: 14px !important;
     font-weight: 500 !important;
     border: 0 !important;
@@ -134,7 +143,7 @@ hr{
 }
 
 .site-btn.icon i{
-    color: #000;
+    color: #FFF;
     background: #fff;
     margin-left: 15px;
     border-radius: 50px;
@@ -157,12 +166,12 @@ hr{
 
 p{
     font-size: 13px;
-    color: #4c4c4c;
+    color: #000000;
     line-height: 24px;
  }
 
 .little-text{
-    color: #989898;
+    color: #000000;
     font-weight: 400;
     line-height: 18px;
 }
@@ -365,11 +374,12 @@ h6{
     text-transform: uppercase;
     font-size: 17px;
     font-weight: bold;
+    color:#3c5a99;
 }
 
 .profile .job{
     font-size: 13px;
-    color: #777777;
+    color: #3c5a99;;
 }
 
 .profile-image {
@@ -391,12 +401,12 @@ ul.profile-information li{
     border-left: solid 2px #eee;
     padding: 0 0 23px 20px;
     font-size: 14px;
-    color: #787878;
+    color: #000000;
 }
 
 ul.profile-information li p{
     font-size: 13.5px;
-    color: #7F7F7F;
+    color: #000000;
     line-height: 12px;
 }
 
@@ -436,8 +446,8 @@ ul.profile-information li:first-child{
 
 ul.profile-information li:first-child img {
     margin: -44px -44px;
-    display: inline-block;
-    position: absolute;
+    display:inline-block;
+    position:absolute;
     width: 25px;
 }
 
@@ -457,7 +467,7 @@ ul.profile-information li:first-child:before{
 }
 
 ul.profile-information li:first-child:after{
-    background: url(../images/glasses-w.png) no-repeat;
+    background: url(../images/glasses-w.jpg) no-repeat;
     content: '';
     width: 30px;
     height: 10px;
@@ -620,6 +630,7 @@ section.graybg{
     font-size: 14px;
     font-weight: 500;
     line-height: 30px;
+     color: #3c5a99;
 }
 
 .clients .client{
@@ -643,6 +654,7 @@ section.graybg{
 .service .icon i:before {
     font-size: 44px;
     margin-left: 0;
+    margin-left: 0;
 }
 
 .service{
@@ -653,6 +665,7 @@ section.graybg{
     padding: 20px;
    box-shadow: 0px 0px 48px 0px rgba(4, 6, 4, 0.08);
    min-height: 186px;
+    
 }
 
 /*------------------------ 5 Resume Section ------------------------*/
@@ -1345,7 +1358,7 @@ footer .footer .name{
 }
 
 footer .footer .copyright{
-    color: #9c9c9c;
+    color: #000000;
     font-size: 12px;
     text-align: right;
 }
@@ -1355,7 +1368,7 @@ footer .footer .copyright a{
 }
 
 footer .footer .copyright a:hover{
-    color: #dfdfdf;
+    color: #000000;
     transition: all ease 0.3s;
 }
 
@@ -1391,7 +1404,7 @@ footer .footer .copyright a:hover{
 
 .estate figure figcaption .info{
     font-size: 13px;
-    color: #989898;
+    color: #000000;
     line-height: 18px;
     display: block;
 }
@@ -1430,7 +1443,7 @@ footer .footer .copyright a:hover{
     font-size: 12.5px;
     border-top: solid 1px #dfdfdf;
     padding: 12px 0 0;
-    color: #989898;
+    color: #000000;
     margin-top: 8px;
 }
 
@@ -1451,14 +1464,14 @@ footer .footer .copyright a:hover{
 
 .portfolio-content .features .info{
     font-size: 14px;
-    color: #989898;
+    color: #000000;
     line-height: 18px;
     display: block;
 }
 
 .portfolio-content .features .room{
     font-size: 13px;
-    color: #989898;
+    color: #000000;
 }
 
 .portfolio-content .features .room span{
@@ -1477,7 +1490,7 @@ footer .footer .copyright a:hover{
 .details ul li{
     list-style: none;
     font-size: 13px;
-    color: #989898;    
+    color: #000000;    
     line-height: 25px;
 }
 

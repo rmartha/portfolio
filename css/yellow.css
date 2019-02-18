@@ -3,25 +3,25 @@
 /*---------------------------------- */
 
 header nav a.home-btn, .estate figure .imgout .price, .site-btn, .timeline li:first-child i, nav ul li a:after, .owl-theme .owl-controls .owl-page span, .skill-list .progress .percentage, ul.profile-information li:first-child:before{
-    background: #ffc500 !important;
+    background: #3c5a99 !important;
 }
 
 header nav ul li a:hover, .events ul li .datenlocation span, .namenprice .price, .cbp-filter-item-active, .portfolio-content p span, #blog-post .blog-sidebar ul.category-list li a:hover, #blog-post .blog-sidebar .popular-posts ul li a .info{
-    color: #ffc500 !important;
+    color: #3c5a99 !important;
 }
 
 .spinner:before{
-    border-top-color: #ffb100;  
+    border-top-color: #3c5a99;  
 }
 
 ul.profile-information li:before{
-	border-color: #ffc500; 
+	border-color: #3c5a99; 
 }
 
 /* Hover Color*/
 
 .site-btn:hover, header nav a.home-btn:hover, .section-title span{
-   background-color: #ffb100 !important;
+   background-color: #3c5a99 !important;
 }
 
 /* Opacity Color*/
@@ -37,15 +37,15 @@ ul.profile-information li:before{
 }
 
 .timeline li:before, ul.profile-information li:before{
-	border-color: #ffb100 !important;
+	border-color: #3c5a99 !important;
 }
 
 .tab.active a, #blog-post .post-list ul li a, #blog-post .post-comment ul li .comment-content a{
-	color: #ffb100;
+	color: #3c5a99;
 }
 
 ul.profile-information li:first-child:after{
-    background: url(../../images/glasses.png) no-repeat; 
+    background: url(../images/glasses-w.jpg) no-repeat; 
     background-size: 27px 10px;
 }
 
