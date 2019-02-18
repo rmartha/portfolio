@@ -853,6 +853,12 @@ ul.timeline{
     -moz-transform: translate(0,-25px);
 }
 
+#MainNavMenu {
+  width: calc(100% - 300px);
+  float: right;
+  -webkit-transition: 0.1s;
+  -o-transition: 0.1s;
+  transition: 0.1s; }
 
 #portfolio .cbp-item figure .icon {
     position: absolute;
